@@ -1,8 +1,15 @@
 {
+  "name": "@billl/github-actions-test",
+  "private": false,
+  "license": "MIT",
   "devDependencies": {
     "jest": "^29.6.1"
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "publishConfig": {
+  "access": "public"
+},
+  "version": "0.0.1-development"
 }

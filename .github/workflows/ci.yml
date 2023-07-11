@@ -23,5 +23,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn
       - run: yarn test
-      - run: echo ${{ secrets.DUMMY_NPM_SECRET }}
+      - name: publish
+        env: 
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn publish
 
