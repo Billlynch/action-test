@@ -21,10 +21,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+          scope: '@billl'
       - run: yarn
       - run: yarn test
-      - name: publish
+      - run: yarn npm publish
         env: 
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn publish
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
