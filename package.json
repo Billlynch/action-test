@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "jest",
-    "release": "lerna version --yes"
+    "release": "lerna version --yes",
+    "publish-if-missing": "lerna publish from-package"
   },
   "publishConfig": {
     "access": "public"
