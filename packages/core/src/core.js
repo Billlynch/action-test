@@ -1,5 +1,5 @@
 'use strict';
 
 function core() {
-  return 'Hello from core';
+  return 'Hello from core with change';
 }

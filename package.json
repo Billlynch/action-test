@@ -10,7 +10,8 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "release": "lerna version --yes"
   },
   "publishConfig": {
     "access": "public"

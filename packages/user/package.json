@@ -1,5 +1,5 @@
 {
-  "name": "user",
+  "name": "@bill/action-test-user",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "BillLynch <llynch.bill@gmail.com>",
@@ -11,8 +11,5 @@
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
-  },
-  "scripts": {
-    "test": "node ./__tests__/user.test.js"
   }
 }
