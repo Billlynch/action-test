@@ -6,7 +6,7 @@
 This is a test of lerna publish in github actions.
 
 
-some changes in core.
+some changes in core
 
 ```
 const core = require('core');
