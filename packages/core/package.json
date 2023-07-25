@@ -1,6 +1,7 @@
 {
   "name": "@billl/action-test-core",
   "version": "0.0.5",
+  "private": false,
   "description": "> TODO: description",
   "author": "BillLynch <llynch.bill@gmail.com>",
   "homepage": "",
@@ -11,5 +12,6 @@
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
-  }
+  },
+  "gitHead": "0688c6442df276cc6b7b7eb49cefcca33796a2d9"
 }
