@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.7 (2023-07-25)
+
+
+### Bug Fixes
+
+* add some docs ([c6a7a9a](https://github.com/Billlynch/action-test/commit/c6a7a9a48e62d848d4c3f83f6e64a750c657b194))
+
+
+
+
+
 ## 0.0.6 (2023-07-25)
 
 
