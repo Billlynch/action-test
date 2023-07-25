@@ -12,7 +12,7 @@
   "scripts": {
     "test": "jest",
     "release": "lerna version --yes",
-    "publish-if-missing": "lerna publish from-package"
+    "publish-if-missing": "lerna publish from-package --yes"
   },
   "publishConfig": {
     "access": "public"
