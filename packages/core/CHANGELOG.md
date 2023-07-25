@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.6 (2023-07-25)
+
+
+### Bug Fixes
+
+* set packages private ([ad9038e](https://github.com/Billlynch/action-test/commit/ad9038e328ac5abb7f1366f5b45172f4ae9e08e5))
+
+
+
+
+
 ## 0.0.5 (2023-07-25)
 
 
