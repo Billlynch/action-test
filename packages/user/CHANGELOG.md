@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.8 (2023-07-25)
+
+
+### Bug Fixes
+
+* add full stop ([145a2a4](https://github.com/Billlynch/action-test/commit/145a2a41c24d021f4ce6c93567b2d85a9b6b5870))
+
+
+
+
+
 ## 0.0.7 (2023-07-25)
 
 
