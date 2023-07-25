@@ -1,0 +1,18 @@
+{
+  "name": "user",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "BillLynch <llynch.bill@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "src/user.js",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "test": "node ./__tests__/user.test.js"
+  }
+}
