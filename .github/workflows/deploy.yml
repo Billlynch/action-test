@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: deploy
+    environment: deployment
     strategy:
       matrix:
         node-version: [18.x]
@@ -23,6 +23,7 @@ jobs:
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+      - run: yarn release
       - name: Authenticate with Registry
         run: |
           echo "@billl:registry=https://registry.npmjs.org/" > .npmrc
