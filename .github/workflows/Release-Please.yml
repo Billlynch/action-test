@@ -12,6 +12,9 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     environment: deployment
+    outputs:
+      releases_created: ${{ steps.release.outputs.releases_created }}
+      release_tag_name: ${{ steps.release.outputs.release_tag_name }}
     steps:
       - uses: google-github-actions/release-please-action@v2
         id: release
@@ -23,13 +26,16 @@ jobs:
 
   Build-And-Publish:
     runs-on: ubuntu-latest
-    if: ${{ steps.release.outputs.releases_created }}
+    needs: [release-please]
+    if: ${{ needs.release-please.outputs.releases_created }}
     strategy:
       matrix:
         node-version: [ 18.x ]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: ${{ needs.release-please.outputs.release_tag_name }}
       - id: setup-environment
         uses: ./.github/actions/setup
         with:
