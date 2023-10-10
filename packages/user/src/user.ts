@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = user;
-
-function user() {
+export function user() {
   return 'Hello from user';
 }
