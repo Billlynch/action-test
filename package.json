@@ -18,7 +18,9 @@
     "build": "lerna run build",
     "release": "lerna version --yes",
     "publish-if-missing": "lerna publish from-package --yes",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format:check": "echo prettier run",
+    "lint": "echo lint"
   },
   "publishConfig": {
     "access": "public"
