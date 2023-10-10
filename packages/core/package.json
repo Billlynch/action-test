@@ -6,12 +6,15 @@
   "author": "BillLynch <llynch.bill@gmail.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "src/core.js",
+  "main": "src/core.ts",
   "files": [
     "src"
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "gitHead": "0688c6442df276cc6b7b7eb49cefcca33796a2d9"
 }
