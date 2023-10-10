@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.9](https://github.com/Billlynch/action-test/compare/action-test-user-v0.0.8...action-test-user-v0.0.9) (2023-10-10)
+
+
+### Bug Fixes
+
+* correct package name ([3bd95da](https://github.com/Billlynch/action-test/commit/3bd95da958f82d23368b844c98d5e1935ed6588a))
+* set packages private ([ad9038e](https://github.com/Billlynch/action-test/commit/ad9038e328ac5abb7f1366f5b45172f4ae9e08e5))
+
 ## 0.0.8 (2023-07-25)
 
 
