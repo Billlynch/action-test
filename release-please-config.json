@@ -16,7 +16,7 @@
       "draft": false,
       "prerelease": false,
       "extra-files": [
-        "../version.ts"
+        "version.ts"
       ]
     }
   },
