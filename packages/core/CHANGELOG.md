@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/Billlynch/action-test/compare/@billl/action-test-core-v0.1.2...@billl/action-test-core-v0.1.3) (2023-11-13)
+
+
+### Bug Fixes
+
+* some change ([#22](https://github.com/Billlynch/action-test/issues/22)) ([50e9207](https://github.com/Billlynch/action-test/commit/50e920734fd02f91905c66cb8def757ec87c7964))
+
 ## [0.1.2](https://github.com/Billlynch/action-test/compare/@billl/action-test-core-v0.1.1...@billl/action-test-core-v0.1.2) (2023-10-10)
 
 
