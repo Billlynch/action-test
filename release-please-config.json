@@ -14,11 +14,11 @@
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "extra-files": [
+        "src/version.ts"
+      ]
     }
   },
-  "extra-files": [
-    "packages/users/src/version.ts"
-  ],
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
