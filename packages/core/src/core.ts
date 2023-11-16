@@ -1,5 +1,5 @@
 "use strict";
 
-function core() {
+export function core() {
   return "Hello from core with new change!";
 }

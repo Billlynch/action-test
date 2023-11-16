@@ -16,5 +16,8 @@
   "scripts": {
     "build": "tsc"
   },
+  "dependencies": {
+    "@billl/action-test-core": "^0.1.2"
+  },
   "gitHead": "9d896082af4a6e54b041fe9e8fd62e715962f327"
 }
