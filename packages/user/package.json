@@ -6,7 +6,7 @@
   "author": "BillLynch <llynch.bill@gmail.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "src/user.ts",
+  "main": "build/user.js",
   "files": [
     "src"
   ],
