@@ -19,8 +19,7 @@
       "extra-files": [
         {
           "type": "json",
-          "path": "../../examples/*/package.json",
-          "glob": true,
+          "path": "../../examples/node/package.json",
           "jsonpath": "$.dependencies.@billl/action-test-user"
         }
       ]
