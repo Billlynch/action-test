@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.0](https://github.com/Billlynch/action-test/compare/@billl/action-test-user-v0.0.10...@billl/action-test-user-v0.1.0) (2023-11-17)
+
+
+### Features
+
+* add examples ([#35](https://github.com/Billlynch/action-test/issues/35)) ([2343dcf](https://github.com/Billlynch/action-test/commit/2343dcf1b34dd738e5d171ed515d88b51677736c))
+* some change ([#33](https://github.com/Billlynch/action-test/issues/33)) ([02db646](https://github.com/Billlynch/action-test/commit/02db646a7deb994f45b561badf8210038d94ec0e))
+* some feat ([#37](https://github.com/Billlynch/action-test/issues/37)) ([628160b](https://github.com/Billlynch/action-test/commit/628160b05ececfa026fe64fd30382f0b8423c14a))
+* some feat again ([#39](https://github.com/Billlynch/action-test/issues/39)) ([c160f60](https://github.com/Billlynch/action-test/commit/c160f60bd69e2cfeecd5ee043716a830284732e0))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @billl/action-test-core bumped from ^0.1.2 to ^0.2.0
+
 ## [0.0.10](https://github.com/Billlynch/action-test/compare/@billl/action-test-user-v0.0.9...@billl/action-test-user-v0.0.10) (2023-10-10)
 
 
