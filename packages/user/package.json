@@ -1,6 +1,6 @@
 {
   "name": "@billl/action-test-user",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "private": false,
   "description": "> TODO: description",
   "author": "BillLynch <llynch.bill@gmail.com>",
@@ -17,7 +17,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@billl/action-test-core": "^0.1.2"
+    "@billl/action-test-core": "^0.2.0"
   },
   "gitHead": "9d896082af4a6e54b041fe9e8fd62e715962f327"
 }
